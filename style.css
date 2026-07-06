@@ -19,5 +19,99 @@
   text-align: center;
 }
 .title h2 {
+  margin-top: 20px;
   font-size: 30px;
+}
+.title-button {
+  width: 500px;
+  height: 150px;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.title-button a {
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  padding: 10px;
+  width: 150px;
+  height: 45px;
+  font-size: 20px;
+  position: relative;
+  z-index: 2;
+}
+.title-button a span {
+  width: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: white;
+  z-index: -1;
+  transition: 0.5s;
+}
+.title-button a:hover span {
+  width: 100%;
+}
+.title-button a:hover {
+  color: black;
+  transition: 0.5s;
+}
+.intro {
+  font-size: 33px;
+  color: black;
+  text-align: center;
+  width: 100%;
+}
+.intro h2 {
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  color: green;
+  font-weight: bold;
+}
+.intro p {
+  width: 70%;
+  text-align: justify;
+  margin: auto;
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(181, 249, 113, 0.8));
+}
+.second {
+  font-size: 30px;
+  color: black;
+  text-align: left;
+  margin-top: 30px;
+}
+.second h3 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+.second p {
+  width: 70%;
+  text-align: justify;
+  margin: auto;
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(181, 249, 113, 0.8));
+}
+.land-disturbance {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+  justify-items: center;
+}
+.land-disturbance img {
+  width: 400px;
+  height: 300px;
+}
+.land-disturbance h1 {
+  margin-bottom: 30px;
+  font-size: 40px;
+}
+.land-disturbance p {
+  width: 80%;
+  text-align: justify;
+  margin: auto;
+  font-size: 20px;
 }
