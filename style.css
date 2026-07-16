@@ -115,3 +115,38 @@
   margin: auto;
   font-size: 20px;
 }
+.table {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+}
+.one {
+  width: 300px;
+  height: 300px;
+  margin-left: 20px;
+}
+.two {
+  width: 300px;
+  height: 300px;
+  margin-left: 20px;
+}
+.three {
+  width: 300px;
+  height: 300px;
+  margin-left: 20px;
+}
+.four {
+  width: 300px;
+  height: 300px;
+  margin-left: 20px;
+}
+.five {
+  width: 300px;
+  height: 300px;
+  margin-left: 20px;
+}
+.six {
+  width: 300px;
+  height: 300px;
+  margin-left: 20px;
+}
