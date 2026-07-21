@@ -119,34 +119,139 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
+  width: 80%;
+  margin: auto;
 }
 .one {
   width: 300px;
-  height: 300px;
-  margin-left: 20px;
+  height: 400px;
+  margin-bottom: 150px;
+  text-align: center;
+  background: lightgoldenrodyellow;
+  border-radius: 20px;
+}
+.one img {
+  width: 80%;
+  height: 200px;
+}
+.impacts {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.impacts h2 {
+  font-size: 35px;
+  margin-top: 20px;
+}
+.people {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  width: 80%;
+  margin: auto;
 }
 .two {
   width: 300px;
-  height: 300px;
-  margin-left: 20px;
+  height: 400px;
+  margin-bottom: 150px;
+  text-align: center;
+  background: lightgoldenrodyellow;
+  border-radius: 20px;
 }
-.three {
+.two {
   width: 300px;
-  height: 300px;
-  margin-left: 20px;
+  height: 400px;
+  margin-bottom: 150px;
+  text-align: center;
+  background: lightgoldenrodyellow;
+  border-radius: 20px;
+  transition:
+    transform 0.4s ease,
+    background-color 0.4s ease;
 }
-.four {
-  width: 300px;
-  height: 300px;
-  margin-left: 20px;
+
+.two:hover {
+  background-color: antiquewhite;
+  transform: scale(1.03);
 }
-.five {
-  width: 300px;
-  height: 300px;
-  margin-left: 20px;
+.two img {
+  width: 50%;
+  height: 150px;
+  border-radius: 300px;
+  margin-top: 20px;
 }
-.six {
-  width: 300px;
-  height: 300px;
-  margin-left: 20px;
+.two .title2 {
+  margin-top: 20px;
+}
+.two .text1 {
+  width: 80%;
+  margin: auto;
+  text-align: justify;
+}
+.the {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.the h1 {
+  font-size: 50px;
+}
+.the h2 {
+  font-size: 30px;
+  margin-top: 20px;
+  color: green;
+}
+.footer {
+  width: 100%;
+  height: 100%;
+  background:
+    linear-gradient(
+      to left,
+      rgba(244, 241, 241, 0.3),
+      rgba(249, 233, 113, 0.5)
+    ),
+    url("earth.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.footer h1 {
+  text-align: center;
+  font-size: 50px;
+  color: rgb(11, 11, 11);
+  margin-top: 30px;
+}
+.footer h2 {
+  text-align: center;
+  font-size: 30px;
+  color: rgb(66, 66, 66);
+  margin-top: 20px;
+}
+.yes {
+  text-align: center;
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.hurt p {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: rgb(117, 113, 113);
+  font-weight: bold;
+}
+.footer hr {
+  width: 50%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin: auto;
+  height: 10px;
+  background-color: black;
+}
+.footer p {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 20px;
 }
